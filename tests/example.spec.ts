@@ -5,7 +5,5 @@ test('успешный переход в документацию', async ({ hom
   await homePage.clickSelectCountry();
   await selectCntrAndLangPage.selectCountry("Россия");
 
-  // Проверка прямо в тесте (канон)
-  //await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
